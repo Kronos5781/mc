@@ -1,0 +1,44 @@
+# Server files and directories
+server/
+world/
+world_nether/
+world_the_end/
+logs/
+crash-reports/
+usercache.json
+banned-players.json
+banned-ips.json
+ops.json
+whitelist.json
+eula.txt
+
+# Server runtime files
+*.log
+*.log.*
+*.gz
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Java files
+*.class
+hs_err_pid*
+
+# Backup files
+backups/
+*.backup
+*.bak
+
+# Modpack downloads
+*.zip
+*.jar
+!forge-*.jar
+
+# System files
+.DS_Store
+Thumbs.db
+
