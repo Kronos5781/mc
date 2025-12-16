@@ -46,7 +46,7 @@ After=network.target
 [Service]
 Type=simple
 User=$USER
-WorkingDirectory=$SERVER_DIR
+WorkingDirectory=$SCRIPT_DIR
 ExecStart=$SCRIPT_DIR/start.sh
 Restart=always
 RestartSec=10
